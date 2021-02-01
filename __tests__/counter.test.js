@@ -15,7 +15,7 @@ describe('Counter', () => {
 //   beforeEach(() => {
 //     Counter(monies);
 //   })
-    test('should take user input and store in user object', () => {
-      expect(user.age).toBe(30);
-      expect(user.planet).toBe('Earth')
-  })
+    test('take a dollar ammount and return the number of max quarters you could make from it', () => {
+      expect(Counter(monies)).toBe(12);
+    })
+  });
